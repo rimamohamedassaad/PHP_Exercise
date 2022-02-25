@@ -7,7 +7,7 @@ $items = array (
     array("Tanoureen", "Reem")
 );
 
-echo "Hey Sir, Please I need 1 pack of " . $items[0][0] . " eggs and 3 " . $items[2][2]. "Water Pack\n";
+echo "Hey Sir, Please I need 1 pack of " . $items[0][0] . " eggs and 3 " . $items[2][1]. " Water Pack\n";
 echo "Hey Sir, Please I need 1 pack of balade" . $grocery[0] . "and 3 Reem" . $grocery[3] . "\n";
 
 ?>
