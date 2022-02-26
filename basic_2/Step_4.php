@@ -1,27 +1,30 @@
 <?php 
-$number = 371;
-$num = $number;
-$sum=0;
 // $sum = 4**3 + 7 ** 3;
 //     if($sum == $num)
 //     echo "true";
 // else {
 //     echo "false";
 // }
-while($num != 0)
-{
-    $x=$num%10;
-    $sum = $sum + $x**3;
-    $num = $num/10;
+function isArmstrong($number){
+    $num = $number;
+    $sum=0;
+    while($num != 0)
+    {
+        $x=$num%10;
+        $sum = $sum + $x**3;
+        $num = $num/10;
+    }
+    if($sum == $number){
+        echo "true";
+    }
+    
+         else {
+             echo "false";
+    }
 }
-if($sum == $number){
-    echo "true";
-}
+isArmstrong(371);
 
-     else {
-         echo "false";
-}
-
+isArmstrong(233);
 
 ?>
 
