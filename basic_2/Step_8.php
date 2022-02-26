@@ -2,12 +2,12 @@
 $num;
 function isPowerOfTwo($num){
 if($num && (!($num & ($num - 1)))){
-    echo "$num is powred  by two";
+    return "$num is powred  by two";
 }
 else {
-    echo "is not powered";
+    return "is not powered";
 }
 }
-isPowerOfTwo(32);
-isPowerOfTwo(21);
+echo isPowerOfTwo(32);
+echo isPowerOfTwo(21);
 ?>
