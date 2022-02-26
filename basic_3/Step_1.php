@@ -18,6 +18,7 @@ function usestars($num1){
         echo "\n";
         }
 }
+
 usestars(4);
 
 
