@@ -11,7 +11,6 @@ for($i=1;$i<=$length;$i++){
 echo "$arrone[$i] ";
 }
 
-
 // foreach($arr as $val){
 // $val = $arr[$i-1];
 // $i--;
